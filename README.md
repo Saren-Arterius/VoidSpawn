@@ -7,7 +7,7 @@ Usage
 ========
 
 * Prevents players from dying in the void.
-* You have a beautiful spawn in empty world. You are too lazy to set WorldGuard protections everywhere and you don't want players to type commands to get back up.
+* You have a beautiful spawn in water world. You are too lazy to set WorldGuard protections everywhere and you don't want players to type commands to get back up.
 
 Commands
 ========
