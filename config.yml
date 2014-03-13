@@ -1,0 +1,10 @@
+variable:
+    EnableConfusionEffect: Yes
+    EnableMessageOnSpawn: No
+    # Total delay = (TicksPerCycle*Cycle / 20) seconds
+    Cycle: 20
+    # The lower TicksPerCycle, the more smoke will be spawned.
+    TicksPerCycle: 2
+
+system:
+    PluginVersion: 0.0.1

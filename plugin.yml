@@ -1,0 +1,36 @@
+name: VoidSpawn
+version: 0.0.1
+description: When a player's Y position is too low in some worlds, teleport him to spawn.
+author: Saren
+website: https://github.com/Saren-Arterius/VoidSpawn
+ 
+main: net.wtako.VoidSpawn.Main
+
+commands:
+    voidspawn:
+        aliases: [vs]
+        description: Basic command.
+        usage: Type /<command> help to get help.
+        permission: VoidSpawn.admin
+        permission-message: You are not permitted to reload this plugin.
+
+permissions:
+    VoidSpawn.*:
+        description: Gives access to all VoidSpawn commands.
+        default: op
+    VoidSpawn.admin:
+        description: Gives access to all VoidSpawn administrative commands.
+        children:
+            VoidSpawn.reload: true
+            VoidSpawn.set: true
+            VoidSpawn.bypass: true
+        default: op
+    VoidSpawn.set:
+        description: Gives access to set Y position limit.
+        default: op
+    VoidSpawn.bypass:
+        description: Gives access to bypass Y position limit.
+        default: op
+    VoidSpawn.reload:
+        description: Reloads the plugin.
+        default: op
