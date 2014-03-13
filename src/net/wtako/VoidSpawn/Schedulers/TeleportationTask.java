@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
+import org.bukkit.util.Vector;
 
 public class TeleportationTask extends BukkitRunnable {
 
@@ -36,6 +37,7 @@ public class TeleportationTask extends BukkitRunnable {
             player.getWorld().playEffect(player.getLocation(), Effect.SMOKE, 31);
         } else {
             TeleportationTask.end(player);
+            player.setVelocity(new Vector(0, 0, 0));
             player.teleport(location);
             if (Main.getInstance().getConfig().getBoolean("variable.EnableMessageOnSpawn")) {
                 player.sendMessage(Lang.SPAWN_MESSAGE.toString());
