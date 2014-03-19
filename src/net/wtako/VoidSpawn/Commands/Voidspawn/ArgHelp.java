@@ -1,6 +1,6 @@
 package net.wtako.VoidSpawn.Commands.Voidspawn;
 
-import net.wtako.HoloPopup.Utils.Lang;
+import net.wtako.VoidSpawn.Utils.Lang;
 
 import org.bukkit.command.CommandSender;
 

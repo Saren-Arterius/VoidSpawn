@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.wtako.HoloPopup.Utils.Lang;
 import net.wtako.VoidSpawn.Main;
+import net.wtako.VoidSpawn.Utils.Lang;
 
 import org.bukkit.World;
 import org.bukkit.command.CommandSender;

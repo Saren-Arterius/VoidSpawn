@@ -6,9 +6,9 @@ import java.io.InputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import net.wtako.HoloPopup.Utils.Lang;
 import net.wtako.VoidSpawn.Commands.CommandVoidlimit;
 import net.wtako.VoidSpawn.EventHandlers.PlayerMoveListener;
+import net.wtako.VoidSpawn.Utils.Lang;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
