@@ -2,9 +2,9 @@ package net.wtako.VoidSpawn.Schedulers;
 
 import java.util.ArrayList;
 
+import net.wtako.HoloPopup.Utils.Lang;
 import net.wtako.VoidSpawn.Main;
 import net.wtako.VoidSpawn.EventHandlers.PlayerMoveListener;
-import net.wtako.VoidSpawn.Utils.Lang;
 
 import org.bukkit.Effect;
 import org.bukkit.Location;
